@@ -2,7 +2,10 @@
 
 A fine-tuned YOLO model for detecting facial features and personal headwear, including glasses, hats, and masks — optimized for identity verification and KYC applications.
 
-![YOLO Face Detection Illustration](docs-utils/img1.png)
+<div align="center" style="display: flex; justify-content: center; gap: 20px;">
+    <img src="docs-utils/img1.png" alt="YOLO Face Detection Illustration" width="50%"/>
+    <img src="docs-utils/img2.png" alt="YOLO Face Detection Illustration" width="50%"/>
+</div>
 
 ### Overview
 
