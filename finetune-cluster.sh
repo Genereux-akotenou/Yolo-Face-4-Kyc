@@ -15,4 +15,4 @@ conda activate deepleaning-training-cluster
 
 # RUN-JOB
 # papermill finetune.ipynb finetune-output.ipynb
-bash cluster-train-yolo.sh
+torchrun --nproc_per_node=1 --master_port=29510 finetune.py
