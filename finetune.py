@@ -322,4 +322,6 @@ trainer.fit(model)
 
 # ### Push to Hugging Face Hub
 # In[ ]:
+model.model.config.id2label = id_to_name
+model.model.config.label2id = {v: k for k, v in id_to_name.items()}
 model.model.push_to_hub("Genereux-akotenou/yolos-headwear-2", private=False)
