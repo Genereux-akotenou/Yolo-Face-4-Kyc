@@ -1,0 +1,23 @@
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/mahouzonssou.akoteno/.cache/huggingface/token
+Login successful
+dict_keys(['train', 'val'])
+Total images in full dataset: 46781
+Target IDs: [13, 14, 15, 27]
+['glasses', 'hat', 'headband, head covering, hair accessory', 'hood']
+
+  0%|          | 0/10436 [00:00<?, ?it/s]
+  0%|          | 33/10436 [00:00<00:32, 323.78it/s]
+  1%|          | 69/10436 [00:00<00:30, 340.88it/s]
+  1%|          | 105/10436 [00:00<00:29, 348.25it/s]
+  1%|▏         | 144/10436 [00:00<00:28, 361.85it/s]
+  2%|▏         | 182/10436 [00:00<00:27, 366.66it/s]
+  2%|▏         | 221/10436 [00:00<00:27, 373.47it/s]
+  2%|▏         | 259/10436 [00:00<00:27, 372.18it/s]
+  3%|▎         | 298/10436 [00:00<00:26, 377.59it/s]
+  3%|▎         | 339/10436 [00:00<00:26, 384.62it/s]
+  4%|▎         | 378/10436 [00:01<00:26, 384.47it/s]
+  4%|▍         | 419/10436 [00:01<00:25, 390.74it/s]
+  4%|▍         | 459/10436 [00:01<00:25, 386.16it/s]
+  5%|▍         | 500/10436 [00:01<00:25, 391.67it/s]
